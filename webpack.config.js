@@ -18,7 +18,7 @@ const jsLoaders = () => {
     }
   ]
   if (isDev) {
-    loaders.push({loader: 'eslint-loader'})
+    loaders.push({loader: 'eslint-loader'}) // ignore warning
   }
 
   return loaders
